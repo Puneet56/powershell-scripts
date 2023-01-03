@@ -47,3 +47,13 @@ Set-Alias of $HOME\scripts\open-file.ps1
 ```powershell
 Set-Alias od $HOME\scripts\open-directory.ps1
 ```
+
+- **open-directory** :- Quickly open bookmarked projects. Will add script to add projects to bookmarks soon.
+
+```powershell
+Set-Alias p $HOME\scripts\project-bookmarks-directory.ps1
+
+# Usage
+
+p <project-name or id>
+```

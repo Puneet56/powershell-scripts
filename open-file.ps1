@@ -1,4 +1,4 @@
-﻿$selected = $(fd -t f . $HOME  | fzf)
+﻿$selected = $(fd -t f . $HOME  | fzf --preview 'type {}')
 
 if ($selected) {
   code $selected
