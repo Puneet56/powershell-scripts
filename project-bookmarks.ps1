@@ -1,6 +1,10 @@
 $project = $args[0];
 
 switch ($project) {
+  0 { 
+    Write-Host "Opening Scripts"
+    code $env:HOMEPATH/scripts
+   }
   1 { 
     Write-Host "Opening customer app ECP"
     code $env:HOMEPATH/Work/customerapp
