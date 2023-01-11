@@ -13,6 +13,14 @@ switch ($project) {
     Write-Host "Opening referred by app"
     code $env:HOMEPATH/Work/referredby-mobile
    }
+  5 { 
+    Write-Host "Opening Github cli rust"
+    code $env:HOMEPATH/projects/github_cli_tool
+   }
+  6 { 
+    Write-Host "Opening Svelte test"
+    code $env:HOMEPATH/projects/svelte-test
+   }
   Default {
     Write-Host "No project found"
   }
