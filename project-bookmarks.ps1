@@ -21,6 +21,10 @@ switch ($project) {
     Write-Host "Opening Svelte test"
     code $env:HOMEPATH/projects/svelte-test
    }
+  7 { 
+    Write-Host "Opening puneet-portfolio"
+    code $env:HOMEPATH/projects/puneetdhiman
+   }
   Default {
     Write-Host "No project found"
   }
