@@ -17,9 +17,9 @@ switch ($project) {
     Write-Host "Opening Github cli rust"
     code $env:HOMEPATH/projects/github_cli_tool
    }
-  6 { 
-    Write-Host "Opening Svelte test"
-    code $env:HOMEPATH/projects/svelte-test
+  6 {
+    Write-Host "Opening Linkedin clone"
+    code $env:HOMEPATH/projects/linkedin
    }
   7 { 
     Write-Host "Opening puneet-portfolio"
