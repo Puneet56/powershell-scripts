@@ -21,7 +21,11 @@ switch ($project) {
     Write-Host "Opening Linkedin clone"
     code $env:HOMEPATH/projects/linkedin
    }
-  7 { 
+  7 {
+    Write-Host "Opening Linkedin clone backend"
+    code $env:HOMEPATH/projects/linkedin-backend
+   }
+  8 { 
     Write-Host "Opening puneet-portfolio"
     code $env:HOMEPATH/projects/puneetdhiman
    }
